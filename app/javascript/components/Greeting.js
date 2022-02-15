@@ -9,7 +9,7 @@ const Greeting = ({greeting}) => {
     dispatch(getMessages());
   }, []);
   return(
-    <h1>hello {ObjMessages}</h1>
+    <h1>{ObjMessages.message}</h1>
   )
 }
 
