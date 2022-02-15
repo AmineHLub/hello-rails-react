@@ -1,19 +1,20 @@
 import React from "react"
-import {HashRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Greeting from "./Greeting";
 
-class App extends React.Component {
-  render () {
+const App = () => {
     return (
       <Router>
-       <Routes>
-         <Route exact path="/">
+       <Switch>
+       <Route exact path="/">
+          <h1>Welcome !!</h1>
+       </Route>
+        <Route exact path="/hello">
           <Greeting greeting={"friend"}/>
-         </Route>
-       </Routes>
+        </Route>
+       </Switch>
       </Router>
     );
-  }
 }
 
 export default App
