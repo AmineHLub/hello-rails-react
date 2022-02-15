@@ -2,6 +2,8 @@
 
 Just a test app that fetchs a local api within the app and display a random greeting message
 
+![screenshot](./app_screenshot.png)
+
 ## Built With
 
 - Ruby
