@@ -2,7 +2,8 @@ import { createStore, applyMiddleware } from "redux";
 import Axios from 'axios';
 import thunk from 'redux-thunk';
 import Logger from 'redux-logger';
-const initialState = 'test';
+
+const initialState = '';
 
 const GET_MSG_API = 'GET_MSG_API'
 
@@ -27,6 +28,6 @@ function rootReducer(state= initialState, action) {
 }
 
 export default function configureStore() {
-  const store = createStore(rootReducer,initialState, applyMiddleware(thunk, Logger));
+  const store = createStore(rootReducer,initialState, applyMiddleware(thunk));
   return store;
 }
