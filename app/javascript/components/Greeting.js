@@ -1,8 +1,8 @@
 import React from "react"
 
-const Greeting = () => {
+const Greeting = ({greeting}) => {
   return(
-    <h1>hey</h1>
+    <h1>hello {greeting}</h1>
   )
 }
 
