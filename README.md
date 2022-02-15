@@ -1,59 +1,39 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## Hello from react-rails
 
-# Project Name
-
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+Just a test app that fetchs a local api within the app and display a random greeting message
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- RoR
+- ReactJS
+- Redux
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- Run `git clone git@github.com:AmineHLub/hello-rails-react.git` to get a local clone
 
 ### Prerequisites
 
-### Setup
+- Make sure you have Ruby and RoR installed
+- Run bundle install
+- Run npm i
 
-### Install
+### Run
 
-### Usage
-
-### Run tests
-
-### Deployment
+Run rails db:create db:migrate db:migrate
 
 
+Run rails s
 
-## Authors
+Navigate to : localhost:port/v1/greeting (api)
+Navigate to : localhost:port/hello (html)
+👤 **Mohamed Amine**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AmineHLub](https://github.com/AmineHLub)
+- Twitter: [@Amino47612441](https://twitter.com/Amino47612441)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hajltaief-b18863163/)
 
 ## 🤝 Contributing
 
@@ -67,9 +47,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+
 
 ## 📝 License
 
