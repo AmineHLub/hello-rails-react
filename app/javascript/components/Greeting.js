@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { useSelector, useDispatch } from 'react-redux';
 import { getMessages } from "../configureStore";
 
-const Greeting = ({greeting}) => {
+const Greeting = () => {
   const ObjMessages = useSelector((state) => state);
   const dispatch = useDispatch();
   useEffect(() => {

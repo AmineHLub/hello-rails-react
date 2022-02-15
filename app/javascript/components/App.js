@@ -14,7 +14,7 @@ const App = () => {
           <h1>Welcome !!</h1>
        </Route>
         <Route exact path="/hello">
-          <Greeting greeting={"friend"}/>
+          <Greeting/>
         </Route>
        </Switch>
       </Router>
