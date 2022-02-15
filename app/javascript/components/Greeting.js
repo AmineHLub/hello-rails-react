@@ -1,8 +1,15 @@
-import React from "react"
+import React, { useEffect } from "react"
+import { useSelector, useDispatch } from 'react-redux';
+import { getMessages } from "../configureStore";
 
 const Greeting = ({greeting}) => {
+  const ObjMessages = useSelector((state) => state);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getMessages());
+  }, []);
   return(
-    <h1>hello {greeting}</h1>
+    <h1>hello {ObjMessages}</h1>
   )
 }
 
